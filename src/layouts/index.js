@@ -26,7 +26,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Mark and Bekkah
+          Bekkah and Mark
         </Link>
       </h1>
     </div>
@@ -35,7 +35,7 @@ const Header = () => (
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Mark and Bekkah" />
+    <Helmet title="Bekkah and Mark" />
     <Header />
     <div
       style={{
