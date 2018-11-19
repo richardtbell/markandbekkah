@@ -4,7 +4,7 @@ const RSVP = () => (
   <div className="container">
     <div className="block">
       <h2>We'd love to know whether you can make it...</h2>
-      <form action="https://formspree.io/rickib90@gmail.com" method="POST">
+      <form action="https://formspree.io/bekkah.and.marks.wedding@gmail.com" method="POST">
         <p className="name">
           <input
             name="name"

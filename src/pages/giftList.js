@@ -7,7 +7,7 @@ const GiftList = props => (
       <p className="line">
         Your presence is enough but if you would like to get us something to
         help us start our life together, our gift list is with John Lewis -
-        number ???? - and will be open from ????
+        number 754064 - and will be open from 4th May 2019.
       </p>
     </div>
   </div>
