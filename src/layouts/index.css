@@ -691,14 +691,14 @@ pre tt:after {
 
 /* Icons ---------------------------------- */
 #name{
-	background-image: url("../../public/static/name.svg");
+	background-image: url("name.svg");
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url("../../public/static/name.svg");
+	background-image: url("name.svg");
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
@@ -706,28 +706,28 @@ pre tt:after {
 }
 
 #email{
-	background-image: url("../../public/static/email.svg");
+	background-image: url("email.svg");
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url("../../public/static/email.svg");
+	background-image: url("email.svg");
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url("../../public/static/comment.svg");
+	background-image: url("comment.svg");
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #dietary-requirements{
-	background-image: url("../../public/static/food.png");
+	background-image: url("food.png");
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
