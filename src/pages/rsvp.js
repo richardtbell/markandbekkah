@@ -9,9 +9,10 @@ const RSVP = () => (
           <input
             name="name"
             type="text"
-            className="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+            className="feedback-input"
             placeholder="Name"
             id="name"
+            required
           />
         </p>
 
@@ -19,15 +20,16 @@ const RSVP = () => (
           <input
             name="email"
             type="text"
-            className="validate[required,custom[email]] feedback-input"
+            className="feedback-input"
             id="email"
             placeholder="Email"
+            required
           />
         </p>
         <div className="attending">
           <p>Can you make it?</p>
           <p>
-            <input type="radio" name="attending" value="true" />
+            <input type="radio" name="attending" value="true" required/>
             Yes, can't wait!
           </p>
           <p>
@@ -36,10 +38,21 @@ const RSVP = () => (
           </p>
         </div>
 
+
         <p className="text">
           <textarea
-            name="text"
-            className="validate[required,length[6,300]] feedback-input"
+            name="Dietary requirements"
+            className="feedback-input"
+            id="dietary-requirements"
+            placeholder="Dietary requirements"
+            required
+          />
+        </p>
+
+        <p className="text">
+          <textarea
+            name="Comment"
+            className="feedback-input"
             id="comment"
             placeholder="Comment"
           />
