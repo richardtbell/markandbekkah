@@ -2,7 +2,7 @@ import React from 'react'
 
 const Address = props => (
   <div className="container">
-    <div className="block">
+    <div className="block center">
       <h2>National Mining Museum Scotland</h2>
       <p className="line">Lady Victoria Colliery</p>
       <p className="line">Newtongrange</p>

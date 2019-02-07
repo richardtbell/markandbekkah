@@ -18,7 +18,7 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1>
         <Link
           to="/"
           style={{
@@ -26,7 +26,11 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Bekkah and Mark
+          Bekkah 
+          <p style={{fontSize: 20}}>
+            and 
+            </p>
+            Mark
         </Link>
       </h1>
     </div>
@@ -35,17 +39,21 @@ const Header = () => (
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Bekkah and Mark" />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+    <div className="layout">
+      <div className="layout-inner">
+        <Helmet title="Bekkah and Mark" />
+        <Header />
+        <div
+          style={{
+            margin: '0 auto',
+            maxWidth: 960,
+            padding: '0px 1.0875rem 1.45rem',
+            paddingTop: 0,
+          }}
+        >
+          {children()}
+        </div>
+      </div>
     </div>
   </div>
 )
