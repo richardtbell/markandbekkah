@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 html{
-  background-color: black;
-  /* background-color: #eee; */
+	background-color: #eee;
+	background-image: url("backdrop.png");
+	background-size: 100%;
   height:100%;
   text-transform: uppercase;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -192,12 +193,22 @@ h1 {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+
+	.layout {
+		width: 88%;
+	}
+
+	.radio {
+		display: block;
+	}
 }
 
 .layout {
   background-color: white;
   margin: 200px auto;
-  max-width: 800px;
+	max-width: 800px;
+	padding-bottom: 30px;
+	width: 88%;	
 }
 
 form {
@@ -208,9 +219,11 @@ form {
   margin: 20px auto;
 }
 
-.radio {
-  width: 50%;
-  display: inline-block;
+@media only screen and (min-width: 580px) {
+	.radio {
+		width: 50%;
+		display: inline-block;
+	}
 }
 
 .radio input {
