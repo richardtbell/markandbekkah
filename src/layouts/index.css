@@ -2,7 +2,7 @@
 
 html{
 	background-color: #eee;
-	background-image: url("backdrop.png");
+	background-image: url("backdrop.jpg");
 	background-size: 100%;
   height:100%;
   text-transform: uppercase;
@@ -11,7 +11,7 @@ html{
 }
 
 #feedback-page{
-	text-align:center;
+	text-align: center;
 }
 
 .container{
